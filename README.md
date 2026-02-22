@@ -1,1 +1,1 @@
-# Mini-Games-Arcade
+A Mini Games Arcade built using HTML, CSS, and JavaScript where users can play Tic-Tac-Toe and Rock-Paper-Scissors in the browser. The project features responsive layouts, interactive gameplay logic, and theme switching between light and dark modes.
