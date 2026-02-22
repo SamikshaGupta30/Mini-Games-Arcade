@@ -1,0 +1,46 @@
+html, body{
+    height:100%;
+}
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-image:url("bgimage.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+h1{
+    color:antiquewhite;
+    font-size:60px;
+    letter-spacing:3px;
+    margin-bottom:40px;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    gap:50px;
+}
+button{
+    height:100px;
+    width:180px;
+    font-size:16px;
+    font-weight:bold;
+    border-radius:15px;
+    border:2px solid transparent;
+    background:rgba(223, 212, 212, 0.15);
+    color:rgb(115, 209, 22);
+    cursor:pointer;
+    transition:0.3s;
+}
+button:hover{
+    border:2px solid #00f2ff;
+    box-shadow:
+    0 0 10px #00f2ff,
+    0 0 20px #00f2ff,
+    0 0 40px #00f2ff;
+}
